@@ -28,6 +28,7 @@ This is a optimization method using **Mixed Integer Programming**.
 ## Capacity-Based
 # Generators
 Generator nominal capacity.
+>for daily operations, capacities are not extendable.
 
 ## Policy-Driven
 
