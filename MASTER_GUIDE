@@ -2,12 +2,22 @@ Problem Description      *******************************************************
 Optimization of power grid.
 We want to create a dynamic model that gives optimal asset allocation that maximizes profits, given constraints, flexibilities and external factors.
 
-
-Solution                 **************************************************************************************************************************
 This is a optimization method using Mixed Integer Programming.
 https://www.nvidia.com/en-sg/glossary/mixed-integer-programming/
 
 
-PyPSA                    **************************************************************************************************************************
+
+PROBLEM MODELLING        **************************************************************************************************************************
+
+__.PyPSA.__
+**PyPSA**
 
 
+
+PROBLEM SOLVING          **************************************************************************************************************************
+Linopy?
+
+
+
+
+Gurobi
