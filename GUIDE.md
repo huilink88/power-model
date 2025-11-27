@@ -8,11 +8,27 @@ https://www.nvidia.com/en-sg/glossary/mixed-integer-programming/
 
 # Solutions
 ## Problem Modelling
-### PyPSA
-#### Constraints
+
+### Objective Function
+
+### Decision Variables
+
+### Constraints
 
 
 ## Problem Solving
-### Linopy?
+### Model Encoding / API Integration
 
-### Gurobi
+### Solving the Model
+
+### Solution Interpretation
+
+### Deployment and Automation
+
+
+# Tools
+## PyPSA
+
+## Linopy
+
+## Gurobi
