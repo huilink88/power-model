@@ -3,7 +3,7 @@
 
 **Resources**
 
-> https://docs.pypsa.org/latest/examples/examples/
+> https://docs.pypsa.org/latest/
 > 
 > https://pypsa-earth.readthedocs.io/en/latest/learning_materials.html
 >
