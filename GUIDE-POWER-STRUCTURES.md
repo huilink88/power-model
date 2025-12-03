@@ -13,6 +13,7 @@
 ### circuit trips (avoid)
 To survive the loss of one line or a big generator, system operators must leave “headroom” on the interconnector, so it might cap imports at (say) X MW to avoid thermal overload if a circuit trips. Grid must be N-1 securem meaning if one circuit trips, the other must be able to safely carry whatever flow ends up on it.
 > Imagine an interconnector that’s effectively two parallel circuits between Region A and Region B. Each circuit has a thermal rating of, say, 1,000 MW. Together, when both are in service, you might allow up to 2,000 MW of flow A → B. Suppose you’re sending 1,800 MW A → B over the two circuits:
+> 
 > Before trip:
 > Circuit 1: 900 MW, Circuit 2: 900 MW
 > Now one circuit trips (say Circuit 2).
