@@ -16,10 +16,16 @@ To survive the loss of one line or a big generator, system operators must leave 
 > 
 > Before trip:
 > Circuit 1: 900 MW, Circuit 2: 900 MW
+> 
 > Now one circuit trips (say Circuit 2).
+>
 > Immediately after the trip, almost all of that 1,800 MW has to go through the remaining circuit (the power doesn’t vanish—loads in Region B still need it). So:
 > Circuit 1 jumps close to 1,800 MW, which exceeds its 1,000 MW rating → thermal overload.
-> To avoid this, AEMO might cap the pre-fault flow at, say, 1,000 MW total across both circuits, so that:
+>
+> To avoid this, system operator might cap the pre-fault flow at, say, 1,000 MW total across both circuits, so that:
+>
 > Pre-fault: 500 + 500
+>
 > Post-fault (one trips): remaining line ≈ 1,000 MW → at the rating, but not above.
+>
 > That’s the “headroom”: you could physically carry 2,000 MW with both lines healthy, but you choose to carry less so that if one line fails, the other isn’t overloaded.
