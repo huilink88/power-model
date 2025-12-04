@@ -1,9 +1,9 @@
 # Lines
-## LNE.1 Functions
+## Functions
 
 
 # Batteries
-## BTR.1 Functions
+## Functions
 * resource adequacy
 * peak capacity
 * black-start or local weak-grid issues
@@ -13,7 +13,7 @@
 
 
 # Grid Management
-## GRM.1 Circuit Trips (avoid)
+## Circuit Trips (avoid)
 To survive the loss of one line or a big generator, system operators must leave “headroom” on the interconnector, so it might cap imports at (say) X MW to avoid thermal overload if a circuit trips. Grid must be N-1 securem meaning if one circuit trips, the other must be able to safely carry whatever flow ends up on it.
 > Imagine an interconnector that’s effectively two parallel circuits between Region A and Region B. Each circuit has a thermal rating of, say, 1,000 MW. Together, when both are in service, you might allow up to 2,000 MW of flow A → B. Suppose you’re sending 1,800 MW A → B over the two circuits:
 > 
@@ -32,3 +32,13 @@ To survive the loss of one line or a big generator, system operators must leave 
 > Post-fault (one trips): remaining line ≈ 1,000 MW → at the rating, but not above.
 >
 > That’s the “headroom”: you could physically carry 2,000 MW with both lines healthy, but you choose to carry less so that if one line fails, the other isn’t overloaded.
+
+**Management using batteries**
+>For a line trip:
+>  Without the battery:
+>      One circuit trips → remaining circuit suddenly must carry almost the full pre-fault flow → risk of overload.
+>  With the battery:
+>    As soon as a line trips, the battery injects power on the B side, effectively reducing what needs to come across the remaining line.
+>    Post-fault flow on the surviving circuit is lower, safely within rating.
+>    That means system operator can allow higher pre-fault interconnector flow (less headroom) because the battery will “catch” the contingency.
+
