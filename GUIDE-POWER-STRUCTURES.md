@@ -33,8 +33,8 @@ To survive the loss of one line or a big generator, system operators must leave 
 >
 > That’s the “headroom”: you could physically carry 2,000 MW with both lines healthy, but you choose to carry less so that if one line fails, the other isn’t overloaded.
 
-**Management using batteries**
->For a line trip:
+### Management using batteries
+>**For a line trip**
 >
 >  Without the battery:
 >
@@ -46,7 +46,7 @@ To survive the loss of one line or a big generator, system operators must leave 
 >    Post-fault flow on the surviving circuit is lower, safely within rating.
 >    That means system operator can allow higher pre-fault interconnector flow (less headroom) because the battery will “catch” the contingency.
 >
->For a generator trip in the importing region:
+>**For a generator trip in the importing region**
 >
 >  Without the battery:
 >
