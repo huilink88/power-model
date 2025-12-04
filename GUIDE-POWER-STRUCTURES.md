@@ -35,10 +35,25 @@ To survive the loss of one line or a big generator, system operators must leave 
 
 **Management using batteries**
 >For a line trip:
+>
 >  Without the battery:
+>
 >      One circuit trips → remaining circuit suddenly must carry almost the full pre-fault flow → risk of overload.
+>
 >  With the battery:
+>
 >    As soon as a line trips, the battery injects power on the B side, effectively reducing what needs to come across the remaining line.
 >    Post-fault flow on the surviving circuit is lower, safely within rating.
 >    That means system operator can allow higher pre-fault interconnector flow (less headroom) because the battery will “catch” the contingency.
-
+>
+>For a generator trip in the importing region:
+>
+>  Without the battery:
+>
+>    Generator in B trips → imports on the interconnector jump up to cover the deficit.
+>
+>  With the battery:
+>
+>    Generator in B trips → battery instantly discharges, supplying some or all of the missing 500 MW locally.
+>    The interconnector doesn’t have to ramp as hard, so its post-fault flow stays within limits.
+>    Again, this lets AEMO run the interconnector at a higher pre-fault flow, knowing the battery will limit the post-fault increase.
