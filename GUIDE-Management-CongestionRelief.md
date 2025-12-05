@@ -1,4 +1,5 @@
 # Grid Management
+**_local/line-level constraints & power flows_**
 
 # What is Congestion Relief
 Network congestion management/relief is about **avoiding overloading transmission or distribution lines/transformers** by managing _where_ power flows, not just how much.
