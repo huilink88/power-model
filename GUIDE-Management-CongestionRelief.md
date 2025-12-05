@@ -1,4 +1,18 @@
 # Grid Management
+
+# What is Congestion Relief
+Network congestion management/relief is about **avoiding overloading transmission or distribution lines/transformers** by managing _where_ power flows, not just how much.
+
+Tools include:
+1) Re-dispatch of generation (e.g., curtailing one plant and ramping another)
+2) Topology changes (switching lines, reconfiguring network)
+3) Use of flexible devices (FACTS, PSTs, HVDC, etc.)
+4) Targeted demand response in specific locations
+This is driven by **network constraints** (e.g., line thermal limit, voltage/security constraints) rather than system-wide frequency deviations.
+
+So: congestion relief = **keeping individual grid elements within their operating limits**.
+
+
 # Circuit Trips (avoid)
 To survive the loss of one line or a big generator, system operators must leave “headroom” on the interconnector, so it might cap imports at (say) X MW to avoid thermal overload if a circuit trips. Grid must be N-1 securem meaning if one circuit trips, the other must be able to safely carry whatever flow ends up on it.
 > Imagine an interconnector that’s effectively two parallel circuits between Region A and Region B. Each circuit has a thermal rating of, say, 1,000 MW. Together, when both are in service, you might allow up to 2,000 MW of flow A → B. Suppose you’re sending 1,800 MW A → B over the two circuits:
@@ -19,7 +33,7 @@ To survive the loss of one line or a big generator, system operators must leave 
 >
 > That’s the “headroom”: you could physically carry 2,000 MW with both lines healthy, but you choose to carry less so that if one line fails, the other isn’t overloaded.
 
-### Management using batteries
+# Management using batteries
 >**For a line trip**
 >
 >  Without the battery:
