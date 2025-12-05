@@ -1,4 +1,5 @@
 # Frequency Control
+**_system-wide balance & stability_**
 
 # What is Frequency Control
 **Frequency control** services deal with keeping system frequency at (or near) its nominal value (50 Hz or 60 Hz), by balancing **active power** supply and demand in real time.
